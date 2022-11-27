@@ -2,6 +2,6 @@ provider "azurerm" {
   features{}
 }
 resource "azurerm_resource_group" "myname" {
-  name = "rgip"
+  name = "tfcloud_rg"
   location = "eastus"
 }
